@@ -11,12 +11,18 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 80px;
-    background-color: f5f0f0;
+    background: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 #header .logo{
     height: 35px;
     width: 90px;
+    border: 2px solid #852525;
+    border-radius: 20px;
 }
 .nav-bar{
     display: flex;
@@ -38,4 +44,36 @@ body{
 .nav-bar li a:hover,
 .nav-bar li a.active{
     color: #852525;
+}
+#hero{
+    background-image: url(img/hero4.png);
+    height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    background-size: cover;
+    padding:0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#hero h4{
+    padding-bottom: 15px;
+}
+#hero h1{
+    color: #852525;
+}
+#hero button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #852525;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#hero button:hover{
+    background-color: #1a1a1a;
 }
