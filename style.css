@@ -77,3 +77,36 @@ body{
 #hero button:hover{
     background-color: #1a1a1a;
 }
+#product1{
+    text-align: center;
+}
+#product1 .pro{
+    width: 23%;
+    min-height: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0; 
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.1); 
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product1 .pro .des{
+    padding: 10px 0;
+    text-align: start;
+}
+#product1 .pro .des span{
+    color: #606063;
+    font-size: 12px;
+}
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+} 
+#product1 .pro .des i{
+    font-size: 12px;
+    color: rgb(243, 181, 20);
+}
