@@ -48,7 +48,7 @@ body{
 #hero{
     background-image: url(img/hero4.png);
     height: 90vh;
-    width: 100%;
+    width: 89.5%;
     background-position: top 25% right 0;
     background-size: cover;
     padding:0 80px;
@@ -80,6 +80,12 @@ body{
 #product1{
     text-align: center;
 }
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
 #product1 .pro{
     width: 23%;
     min-height: 250px;
@@ -87,7 +93,8 @@ body{
     border: 1px solid #cce7d0; 
     border-radius: 20px;
     cursor: pointer;
-    box-shadow: 20px 20px 50px rgba(0,0,0,0.1); 
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.1);
+    position: relative;
 }
 #product1 .pro img{
     width: 100%;
@@ -109,4 +116,22 @@ body{
 #product1 .pro .des i{
     font-size: 12px;
     color: rgb(243, 181, 20);
+}
+#product1 .pro .des h4{
+    padding-top: 7px;
+    color: #852525;
+    font-size: 16px;
+    font-weight: 700;
+}
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    background-color: #852525;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
 }
