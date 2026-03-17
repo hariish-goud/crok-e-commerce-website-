@@ -22,7 +22,21 @@
     </section>
     <section id="prodetails" class="section-p1">
         <div class="single-pro-image">
-            <img src="img/product/p1.webp" width="100%" id="MainImg" alt="product1">
+            <img src="img/product/h1.jpg" width="100%" id="MainImg" alt="product1">
+            <div class="small-img-group">
+                <div class="small-img">
+                    <img src="img/product/h1.jpg" width="100%" alt="product1">
+                </div>
+                <div class="small-img">
+                    <img src="img/product/h2.jpg" width="100%" alt="product2">
+                </div>
+                <div class="small-img">
+                    <img src="img/product/h3.jpg" width="100%" alt="product3">
+                </div>
+                <div class="small-img">
+                    <img src="img/product/h4.jpg" width="100%" alt="product4">
+                </div>
+            </div>
         </div>
         <div class="single-pro-details">
             <h6>Home / T-shirt</h6>
@@ -38,9 +52,78 @@
             <input type="number" value="1">
             <button class="normal">Add to Cart</button>
             <h4>Product Details</h4>
-            <p>Product Description: This is a high-quality t-shirt made from soft cotton fabric. It features a comfortable fit and a stylish design.</p>
+            <p>DEELMO Mens Stylish Cotton Blend Casual Shirt || Full Sleeve Button-Down Shirt with Dual Flap Pockets || Comfortable Breathable Fabric || Perfect for Casual Office and Outing Wear</p>
         </div>
     </section>
+     <section id="product1" class="section-p1">
+        <h2>New Arrivals</h2>
+        <p>Stylesh Summer Collection </p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/product/p1.webp" alt="product1">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>brown shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>RS 299</h4>
+                </div>
+                <a href="cart.html"><i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/product/p2.webp" alt="product1">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon black shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>RS 299</h4>
+                </div>
+                <a href="cart.html"><i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/product/p3.jpg" alt="product1">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon gray shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>RS 299</h4>        
+                </div>
+                <a href="cart.html"><i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/product/p4.jpg" alt="product1">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon printedshirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>RS 299</h4>
+                </div>
+                <a href="cart.html"><i class="fa-solid fa-cart-arrow-down cart"></i></a>
+            </div>
+        </div>
     <div id="feeddback">
      </div>
     <footer class="section-p1">
@@ -81,6 +164,22 @@
             <p>&copy; 2023 crok. All rights reserved.</p>
         </div>
     </footer>
+    <script>
+        var MainImg=document.getElementById("MainImg");
+        var smallimg=document.getElementsByClassName("small-img");
+        smallimg[0].onclick=function(){
+            MainImg.src=smallimg[0].src;
+        }
+        smallimg[1].onclick=function(){
+            MainImg.src=smallimg[1].src;
+        }
+        smallimg[2].onclick=function(){
+            MainImg.src=smallimg[2].src;
+        }
+        smallimg[3].onclick=function(){
+            MainImg.src=smallimg[3].src;
+        }
+    </script>
     <script src="js/script.js"></script>
 </body>
 </html>

@@ -249,10 +249,17 @@ footer .follow i{
     margin-right: 50px;
     padding: 40px 40px;
 }
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img{
+    flex-basis: 24%;
+    cursor: pointer;
+}
 #prodetails .single-pro-image img{
     width: 100%;
     border-radius: 20px;
-    border: 3px solid #852525;
 }
 #prodetails .single-pro-details{
     width: 50%;
